@@ -4,6 +4,7 @@ exports.logger = async (event) => {
     body: JSON.stringify({
       message: 'AWS Serverless Framework CI/CD Demo',
       timestamp: new Date().toISOString(),
+      version: '1.0',
     }),
   };
 };
